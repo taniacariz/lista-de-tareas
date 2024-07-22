@@ -1,0 +1,25 @@
+.contenedorTarea {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 500px;
+  min-height: 4rem;
+  border-radius: 0.75rem;
+  cursor: pointer;
+  padding: 0 1.5rem;
+  background-color: rgb(233, 233, 233);
+}
+.contenedorTarea.completada {
+  background-color: rgb(175, 175, 175);
+}
+
+.textoTarea {
+  font-size: 1.25rem;
+  color: #434343;
+  overflow-wrap: anywhere;
+}
+
+.iconoTarea {
+  font-size: 1.5rem;
+  color: #434343;
+}

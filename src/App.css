@@ -1,0 +1,53 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  color: rgb(66, 56, 56);
+  font-family: Lato, sans-serif;
+  background-color: #fff1b0;
+}
+
+h1 {
+  font-family: "Outfit", sans-serif;
+  color: #373737;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  padding: 4rem 0;
+}
+
+.contenedorGeneral {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+
+.logo {
+  width: 100%;
+}
+
+.contenedorListaPrincipal {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  margin-top: 3rem;
+  padding: 2rem;
+  min-height: 500px;
+  background: #feffff;
+  border-radius: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+}
